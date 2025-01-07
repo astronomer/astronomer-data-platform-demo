@@ -1,0 +1,6 @@
+name: "Finance"
+deployments:
+  dev: True
+  test: False
+  acc: False
+  prod: True

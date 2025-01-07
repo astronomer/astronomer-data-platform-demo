@@ -1,0 +1,18 @@
+.idea/
+.DS_Store
+
+# Terraform, from https://github.com/github/gitignore/blob/main/Terraform.gitignore
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+.terraformrc
+crash.*.log
+crash.log
+override.tf
+override.tf.json
+terraform.rc
