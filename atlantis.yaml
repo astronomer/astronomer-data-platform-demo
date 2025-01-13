@@ -8,5 +8,5 @@ projects:
   branch: /.*/
   dir: .
   autoplan:
-    when_modified: [ "*.tf", "../modules/**/*.tf", ".terraform.lock.hcl" ]
+    when_modified: [ "*.tf", "../modules/**/*.tf", ".terraform.lock.hcl", "config/data_engineering/*.yaml" ]
     enabled: true
