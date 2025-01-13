@@ -9,8 +9,8 @@ terraform {
 
 # https://registry.terraform.io/providers/astronomer/astro/latest/docs/resources/workspace
 resource "astro_workspace" "astro_workspace" {
-  name                  = var.team_name
-  description           = "Workspace for team ${var.team_name}"
+  name                  = "TF demo - Team ${var.team_name}"
+  description           = "TF demo - Workspace for team ${var.team_name}"
   cicd_enforced_default = false
 }
 
