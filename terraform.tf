@@ -5,6 +5,13 @@ terraform {
       version = "1.0.3"
     }
   }
+
+  # https://developer.hashicorp.com/terraform/language/backend/s3#example-configuration
+  backend "s3" {
+    bucket = "bas-tf-remote-state"
+    key    = "terraform.tfstate"
+    region = "us-east-2"
+  }
 }
 
 provider "astro" {
