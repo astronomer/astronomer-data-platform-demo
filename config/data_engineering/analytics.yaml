@@ -3,6 +3,6 @@ deployments:
   dev: True
   test: False
   acc: False
-  prod: False
-critical: False
+  prod: True
+critical: True
 pointOfContact: "bas"
