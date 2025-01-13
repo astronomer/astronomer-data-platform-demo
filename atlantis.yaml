@@ -1,8 +1,8 @@
 version: 3
-automerge: true
+automerge: false
 projects:
-- name: prod
-  branch: /main/
+- name: data-platform
+  branch: /.*/
   dir: .
   autoplan:
     enabled: true
