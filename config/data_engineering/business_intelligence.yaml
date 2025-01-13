@@ -3,4 +3,4 @@ deployments:
   dev: False
   test: False
   acc: False
-  prod: True
+  prod: False
