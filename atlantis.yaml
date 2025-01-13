@@ -1,7 +1,7 @@
 # https://www.runatlantis.io/docs/repo-level-atlantis-yaml.html
 
 version: 3
-automerge: true
+automerge: true # https://www.runatlantis.io/docs/automerging.html
 delete_source_branch_on_merge: true
 projects:
 - name: data-platform
