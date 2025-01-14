@@ -1,8 +1,8 @@
 name: "analytics"
 deployments:
-  dev: True
+  dev: False
   test: False
   acc: False
-  prod: True
+  prod: False
 critical: True
 pointOfContact: "bas"
