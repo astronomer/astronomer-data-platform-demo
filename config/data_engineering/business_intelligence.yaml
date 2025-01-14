@@ -1,6 +1,0 @@
-name: "Business Intelligence"
-deployments:
-  dev: False
-  test: False
-  acc: False
-  prod: False
