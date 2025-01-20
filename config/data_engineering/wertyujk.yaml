@@ -1,0 +1,8 @@
+name: "wertyujk"
+deployments:
+  dev: True
+  test: False
+  acc: False
+  prod: False
+critical: False
+pointOfContact: "bas"
