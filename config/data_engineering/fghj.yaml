@@ -1,0 +1,8 @@
+name: "fghj"
+deployments:
+  dev: False
+  test: False
+  acc: True
+  prod: False
+critical: False
+pointOfContact: "s"
