@@ -1,0 +1,12 @@
+# https://www.runatlantis.io/docs/repo-level-atlantis-yaml.html
+
+version: 3
+automerge: true # https://www.runatlantis.io/docs/automerging.html
+delete_source_branch_on_merge: true
+projects:
+- name: data-platform
+  branch: /.*/
+  dir: .
+  autoplan:
+    when_modified: [ "*.tf", "../modules/**/*.tf", ".terraform.lock.hcl", "config/data_engineering/*.yaml" ]
+    enabled: true

@@ -1,0 +1,8 @@
+name: "analytics"
+deployments:
+  dev: False
+  test: False
+  acc: False
+  prod: False
+critical: True
+pointOfContact: "bas"
